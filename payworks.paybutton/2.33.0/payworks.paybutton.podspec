@@ -2,12 +2,12 @@ Pod::Spec.new do |spec|
 	spec.name				= 'payworks.paybutton'
 	spec.version			= '2.33.0'
 	spec.license			= { :type => 'Copyright', :text => '©2016 payworks GmbH. All rights reserved.' }
-	spec.homepage			= 'http://www.payworksmobile.com/developers'
+	spec.homepage			= 'https://www.payworksmobile.com/developers'
 	spec.authors			= { 'payworks' => 'developers@payworksmobile.com' }
 	spec.summary			= 'A delightful UI framework build on top of the venerated payment integration framework powered by payworks'
 	spec.platform			= :ios, '8.0'
 	spec.requires_arc		= true
-	spec.source				= { :http => 'http://releases.payworks.io/artifactory/mpos-ios/io/payworks/mpos.ios.ui/'+spec.version.to_s+'/mpos.ios.ui-'+spec.version.to_s+'.zip' }
+	spec.source				= { :http => 'https://releases.payworks.io/artifactory/mpos-ios/io/payworks/mpos.ios.ui/'+spec.version.to_s+'/mpos.ios.ui-'+spec.version.to_s+'.zip' }
 	spec.resource			= 'mpos_ui_resources.bundle'
 	spec.vendored_frameworks = 'mpos_ui.framework'
 	

@@ -2,12 +2,12 @@ Pod::Spec.new do |spec|
     spec.name               = 'payworks'
     spec.version            = '2.24.1'
     spec.license            = { :type => 'Copyright', :text => '©2016 payworks GmbH. All rights reserved.' }
-    spec.homepage           = 'http://www.payworksmobile.com/developers'
+    spec.homepage           = 'https://www.payworksmobile.com/developers'
     spec.authors            = { 'payworks' => 'developers@payworksmobile.com' }
     spec.summary            = 'A delightful payment integration framework powered by payworks'
     spec.platform           = :ios, '8.0'
     spec.requires_arc       = true
-    spec.source             = { :http => 'http://releases.payworks.io/artifactory/mpos-ios/io/payworks/mpos.ios.sdk/'+spec.version.to_s+'/mpos.ios.sdk-'+spec.version.to_s+'.zip' }
+    spec.source             = { :http => 'https://releases.payworks.io/artifactory/mpos-ios/io/payworks/mpos.ios.sdk/'+spec.version.to_s+'/mpos.ios.sdk-'+spec.version.to_s+'.zip' }
 
 
     spec.subspec 'mpos' do |mpos|
