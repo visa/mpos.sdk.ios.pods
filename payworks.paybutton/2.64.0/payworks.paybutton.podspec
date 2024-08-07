@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
 	spec.source				= { :http => 'https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.ui/'+spec.version.to_s+'/mpos.ios.ui-'+spec.version.to_s+'.zip' }
 	spec.vendored_frameworks = 'mpos_ui.xcframework'
 
-	spec.ios.dependency			'payworks/mpos/core', '$$VERSION$$'
+	spec.ios.dependency			'payworks/mpos/core', '2.64.0'
 end
 
