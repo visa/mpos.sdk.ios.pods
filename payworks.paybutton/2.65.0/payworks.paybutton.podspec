@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 	spec.platform			= :ios, '15.0'
 	spec.requires_arc		= true
 	spec.swift_version      = '5.0'
-	spec.source				= { :http => 'https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.ui/'+spec.version.to_s+'/mpos.ios.ui-'+spec.version.to_s+'.zip' }
+	spec.source				= { :http => 'https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.ui/'+spec.version.to_s+'/mpos.ios.ui-'+spec.version.to_s+'.zip', :sha256 => 'af4cb9a11e41f5ae6a3861d4681c248090cae50f1ba930ba40915af29ea46759' }
 	spec.vendored_frameworks = 'mpos_ui.xcframework'
 
 	spec.ios.dependency			'payworks/mpos/core', '2.65.0'
