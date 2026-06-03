@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.summary            = 'A delightful payment integration framework powered by payworks'
     spec.platform           = :ios, '15.0'
     spec.requires_arc       = true
-    spec.source             = { :http => 'https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.sdk/'+spec.version.to_s+'/mpos.ios.sdk-'+spec.version.to_s+'.zip' }
+    spec.source             = { :http => 'https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.sdk/'+spec.version.to_s+'/mpos.ios.sdk-'+spec.version.to_s+'.zip', :sha256 => '4db9920e186e231c8a22fd912a515d752c0910fcf1d4cb24eed019d05bb5c7f8' }
     spec.default_subspec       = 'default'
 
     spec.subspec 'mpos' do |mpos|
